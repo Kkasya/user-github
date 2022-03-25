@@ -1,0 +1,11 @@
+.error {
+
+}
+
+.error__visible {
+    opacity: 1;
+}
+
+.error__hide {
+    opacity: 0;
+}
