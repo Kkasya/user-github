@@ -10,8 +10,8 @@ return (
     <SearchInput />
     <div className="usersList">
       {search.users.map((user, index) => {
-        return <div key={user.id}>
-          {index+1}. {user.login}
+        return <div className="userItem" key={user.id}>
+          {index+1}. <span className="userLogin"> {user.login} </span>
           <img className="usersList_avatar" src={user.avatar_url}/>
         </div>
       })}

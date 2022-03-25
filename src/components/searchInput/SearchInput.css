@@ -1,5 +1,30 @@
-.error {
+.search__center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.search__right {}
+
+.search_value {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: navy;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.search_input {
+    margin-right: 10px;
+    max-width: 150px;
+}
+
+.error {
+    color: red;
 }
 
 .error__visible {

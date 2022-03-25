@@ -1,3 +1,21 @@
+.usersPage {
+    padding: 20px;
+}
+
+.userLogin {
+    padding-right: 10px;
+}
+
+.userItem {
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.userItem:hover {
+    opacity: 0.8;
+    color: darkcyan;
+}
+
 .usersList_avatar {
     width: 40px;
     height: 40px;

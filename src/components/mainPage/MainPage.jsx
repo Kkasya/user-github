@@ -1,13 +1,13 @@
 import React from 'react';
-import {observer} from "mobx-react-lite";
 import SearchInput from "../searchInput/SearchInput";
+import './MainPage.css';
 
-const MainPage = observer(() => {
+const MainPage = () => {
   return (
     <div className="main">
       <SearchInput />
     </div>
   )
-});
+};
 
 export default MainPage;

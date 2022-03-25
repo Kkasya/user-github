@@ -20,31 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0099a468-06d5-4f50-9827-81a8248d8c66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/user-github.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mainPage/MainPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mainPage/MainPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/searchInput/SearchInput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/searchInput/SearchInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/usersPage/UsersPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/usersPage/UsersPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainPage/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainPage/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainPage/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainPage/MainPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/searchInput/SearchInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchInput/SearchInput.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/searchInput/SearchInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchInput/SearchInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/usersPage/UsersPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/usersPage/UsersPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/usersPage/UsersPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/usersPage/UsersPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648217538613</updated>
-      <workItem from="1648217539816" duration="12677000" />
+      <workItem from="1648217539816" duration="15005000" />
     </task>
     <servers />
   </component>

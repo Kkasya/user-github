@@ -9,7 +9,7 @@ const App = observer( () => {
 
   return (
     <div className="App">
-      <p className="headline">Github users</p>
+      <div className="header">Github users</div>
       {search.users.length ? <UsersPage /> : <MainPage />}
     </div>
   );
