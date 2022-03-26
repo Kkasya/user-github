@@ -2,6 +2,10 @@
     padding: 20px;
 }
 
+.usersList {
+    padding-right: 30px;
+}
+
 .userLogin {
     padding-right: 10px;
 }
@@ -19,4 +23,40 @@
 .usersList_avatar {
     width: 40px;
     height: 40px;
+}
+
+.usersBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.userProfile_headline {
+    display: flex;
+    justify-content: center;
+    color: navy;
+    padding-bottom: 30px;
+}
+
+.userProfile_data {
+    background-color: honeydew;
+    padding: 10px;
+    min-width: 500px;
+    min-height: 300px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: left;
+}
+
+.tab {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #282c34;
+}
+
+.tab__active {
+    background-color: honeydew;
+    color: dodgerblue;
 }

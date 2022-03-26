@@ -1,5 +1,5 @@
 import {makeAutoObservable} from "mobx";
-import {getUserProfile} from "../common/fetch";
+import {getUsers} from "../common/fetch";
 
 class Search {
   searchValue = '';
@@ -10,15 +10,11 @@ class Search {
   };
 
   setSearchValue = (value) => {
-    console.log(value)
-
     this.searchValue = value;
   };
 
    getUsers = async() => {
-
-     this.users = await getUserProfile(this.searchValue);
-    console.log(this.users)
+     this.users = await getUsers(this.searchValue);
   };
 }
 
