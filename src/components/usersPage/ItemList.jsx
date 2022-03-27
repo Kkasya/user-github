@@ -1,7 +1,7 @@
 import React from 'react';
 import user from "../../store/user";
 
-const UserListItem = ({userItem, index}) => {
+const ItemList = ({userItem, index}) => {
 
   return (
     <>
@@ -18,4 +18,4 @@ const UserListItem = ({userItem, index}) => {
    )
 };
 
-export default UserListItem;
+export default ItemList;

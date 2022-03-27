@@ -1,16 +1,16 @@
 import React from 'react';
-import UserListItem from "./UserListItem";
+import ItemList from "./ItemList";
 
-const UserList =({users}) => {
+const ListItems =({users}) => {
 
   return (
     <div className="usersList">
       {users.map((user, index) =>
-        <UserListItem
+        <ItemList
           userItem={user}
           index={index}
           key={user.id}/>)}
     </div>)
 };
 
-export default UserList;
+export default ListItems;

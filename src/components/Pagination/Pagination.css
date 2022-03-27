@@ -1,0 +1,28 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__item {
+    border-radius: 50%;
+    background-color: lightblue;
+    width: 40px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.arrow__active {
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.arrow__active:active {
+    background-color: cadetblue;
+}

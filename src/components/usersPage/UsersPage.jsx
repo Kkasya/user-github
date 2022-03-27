@@ -1,10 +1,11 @@
 import React from 'react';
 import SearchInput from "../searchInput/SearchInput";
 import './UsersPage.css';
-import UserList from "./UserList";
+import ListItems from "./ListItems";
 import UserProfile from "./UserProfile";
 import search from "../../store/search";
 import {observer} from "mobx-react-lite";
+import Pagination from "../Pagination/Pagination";
 
 const UsersPage =  observer(() => {
   return (
@@ -12,7 +13,11 @@ const UsersPage =  observer(() => {
       <div className="usersBlock">
         <div>
           <SearchInput/>
-          <UserList users={search.users}/>
+          <ListItems users={search.users}/>
+          <Pagination
+            pageActive = {search.pageActive}
+            pagesTotal = {search.pagesTotal}
+            setPage = {search.setPageActive} />
         </div>
         <UserProfile/>
       </div>

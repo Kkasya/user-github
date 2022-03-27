@@ -2,8 +2,6 @@ import React, {useState} from 'react';
 import {observer} from "mobx-react-lite";
 import search from "../../store/search";
 import './SearchInput.css';
-import UsersPage from "../usersPage/UsersPage";
-import MainPage from "../mainPage/MainPage";
 
 const SearchInput = observer(() => {
   const [isError, setIsError] = useState(false);
@@ -22,7 +20,7 @@ const SearchInput = observer(() => {
   };
 
   return (
-    <div className={`search ${classSearch}`}>
+    <div className={classSearch}>
       {!search.users.length && <p className="search_value">Search by value: </p>}
       <div>
         <input className="search_input text" onChange={(e) => setSearchValue(e.target.value)} />

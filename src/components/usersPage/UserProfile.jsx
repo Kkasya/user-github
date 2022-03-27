@@ -1,8 +1,8 @@
 import React from 'react';
-import search from "../../store/search";
 import {observer} from "mobx-react-lite";
 import user from "../../store/user";
-import UserList from "./UserList";
+import ListItems from "./ListItems";
+import Pagination from "../Pagination/Pagination";
 
 const UserProfile = observer(() => {
   const tabs = {
@@ -20,9 +20,30 @@ const UserProfile = observer(() => {
         <div className={`tab ${tabs.third}`} onClick={() => user.setTab(3)}>Repos</div>
       </div>
       <div className="userProfile_data">
-        {(user.tab === 1) && <UserList users={user.following}/>}
-        {(user.tab === 2) && <UserList users={user.followers}/>}
-        {(user.tab === 3) && <UserList users={user.repos}/>}
+        {(user.tab === 1) && (
+          user.following.length ? <>
+          <ListItems users={user.following}/>
+          <Pagination
+            pageActive={user.pageFollowing}
+            pagesTotal={Math.ceil(user.following.length / 10)}
+            setPage={user.setPageFollowing}/>
+        </> : 'No data')}
+        {(user.tab === 2) && (
+          user.followers.length ? <>
+          <ListItems users={user.followers}/>
+          <Pagination
+            pageActive={user.pageFollowers}
+            pagesTotal={Math.ceil(user.followers.length / 10)}
+            setPage={user.setPageFollowers}/>
+        </>  : 'No data')}
+        {(user.tab === 3)  && (
+          user.repos.length ? <>
+            <ListItems users={user.repos}/>
+            <Pagination
+              pageActive={user.pageRepos}
+              pagesTotal={Math.ceil(user.repos.length / 10)}
+              setPage={user.setPageRepos()}/>
+          </>  : 'No data')}
       </div>
     </div>)
 });

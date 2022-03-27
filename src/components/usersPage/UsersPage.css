@@ -4,6 +4,7 @@
 
 .usersList {
     padding-right: 30px;
+    min-height: 600px;
 }
 
 .userLogin {
@@ -34,14 +35,14 @@
     display: flex;
     justify-content: center;
     color: navy;
-    padding-bottom: 30px;
+    font-weight: 600;
 }
 
 .userProfile_data {
     background-color: honeydew;
     padding: 10px;
-    min-width: 500px;
-    min-height: 300px;
+    min-width: 400px;
+    min-height: 600px;
 }
 
 .tabs {
