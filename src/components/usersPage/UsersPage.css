@@ -4,6 +4,7 @@
 
 .usersList {
     padding-right: 30px;
+    max-width: 400px;
     min-height: 600px;
 }
 
@@ -14,6 +15,9 @@
 .userItem {
     padding-bottom: 20px;
     cursor: pointer;
+    white-space: nowrap; /* Текст не переносится */
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+    text-overflow: ellipsis;
 }
 
 .userItem:hover {

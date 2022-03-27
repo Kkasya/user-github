@@ -20,21 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0099a468-06d5-4f50-9827-81a8248d8c66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Pagination/Pagination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pagination/Pagination.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fetch.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pagination/Pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination/Pagination.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainPage/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainPage/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/searchInput/SearchInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchInput/SearchInput.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/searchInput/SearchInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchInput/SearchInput.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/usersPage/UserList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/usersPage/ListItems.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/usersPage/UserListItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/usersPage/ItemList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/usersPage/UserProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/usersPage/UserProfile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainPage/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainPage/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/searchInput/SearchInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchInput/SearchInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/usersPage/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/usersPage/ItemList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/usersPage/ListItems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/usersPage/ListItems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/usersPage/UserProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/usersPage/UserProfile.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/usersPage/UsersPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/usersPage/UsersPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/usersPage/UsersPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/usersPage/UsersPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/usersPage/UsersPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/usersPage/UsersPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/search.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,9 @@
       <option name="presentableId" value="Default" />
       <updated>1648217538613</updated>
       <workItem from="1648217539816" duration="23961000" />
-      <workItem from="1648314703674" duration="11066000" />
+      <workItem from="1648314703674" duration="12303000" />
+      <workItem from="1648375476611" duration="527000" />
+      <workItem from="1648376568601" duration="4337000" />
     </task>
     <servers />
   </component>
@@ -101,6 +103,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="221" y="83" key="IDE.errors.dialog" timestamp="1648376712821">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="83" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1648376712821" />
     <state x="2417" y="211" key="SettingsEditor" timestamp="1648314937631">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
